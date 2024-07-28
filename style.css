@@ -5,3 +5,90 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
+.container-fluid{
+    font-family: 'Poppins',sans-serif;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .landing-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("pexels-pixabay-267885.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adjust the color and opacity for dim effect */
+    z-index: 0;
+  }
+  section{
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    /* Text color to be visible on dark background */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content .heading {
+    font-size: 70px !important;
+    z-index: 100;
+
+  }
+  .bi-quote{
+    font-size: 60px;
+  }
+
+  .content .sub-heading {
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 10;
+    color: white;
+  }
+  .fs-14{
+    font-size: 14px;
+  }
+
+  .bg-success-subtle{
+    background: #cbefdf !important;
+  }
+
+  nav .navbar-nav .nav-item a {
+    transition: all ease 0.4s;
+    border-bottom: 3px solid rgb(25, 135, 84);
+    color: #fff !important;
+  }
+
+  nav .navbar-nav .nav-item a:hover {
+    border-bottom: 3px solid #fff;
+    transition: all ease 0.4s;
+  }
+  #timings .card{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+  }
